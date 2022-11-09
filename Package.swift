@@ -11,6 +11,9 @@ let package = Package(
         .library(
             name: "fltrNode",
             targets: ["fltrNode"]),
+        .library(
+            name: "LoadNode",
+            targets: ["LoadNode"]),
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-nio.git", branch: "main"),
